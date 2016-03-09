@@ -1,0 +1,1 @@
+cl /D_USRDLL /D_WINDLL hooker.cpp mhook-lib/mhook.cpp disasm-lib/cpu.c disasm-lib/disasm.c disasm-lib/disasm_x86.c disasm-lib/misc.c /link /DLL /OUT:hooker.dll
